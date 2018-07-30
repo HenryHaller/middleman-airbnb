@@ -1,5 +1,5 @@
 ["papillard", "ssaunier", "monsieurpaillard"].each do |name|
-  proxy "/flats/#{name}.html", "show.html", locals: { owner: name }, ignore: true
+  proxy "/flats/#{name}.html", "flats/show.html", locals: { owner: name }, ignore: true
 end
 
 activate :autoprefixer do |prefix|
