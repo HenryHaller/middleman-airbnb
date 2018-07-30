@@ -1,0 +1,12 @@
+- sql:
+  description: A programming language for the database.
+  image: sql.jpg
+- ruby:
+  description: A programming language for processing requests.
+  image: ruby.jpg
+- html:
+  description: A programming language for building the structure of pages.
+  image: html.jpg
+- css:
+  description: A programming language for formatting pages.
+  image: css.jpg
